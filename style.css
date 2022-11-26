@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*,*::after,*::before{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.images{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+body{
+    height:100vh ;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px; 
+    font-family: "Outfit";
+    background-color:hsl(217, 54%, 11%);
+    color:hsl(215, 51%, 70%);
+    
+
+
+}
+.card{
+    max-width:350px;
+    background-color : hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+.color-white{
+    color:hsl(0, 0%, 100%) ;
+}
+.title{
+    font-size:22px;
+    margin: 10px 0px;
+}
+.color-cyan{
+    color:hsl(178, 100%, 50%) ;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.avatar{
+    width: 30px;
+    height:30px;
+    border: 1px hsl(0, 0%, 100%) solid;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+.card-footer{
+    padding: 10px 0;
+    border-top: 1px hsl(215, 32%, 27%) solid;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-content{
+    line-height:1.5;
+}
+.account-balance{
+    margin: 10px 0px;
+}
+
+
+
